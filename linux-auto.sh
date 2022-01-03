@@ -1,8 +1,6 @@
 #! /bin/bash
 cd /home/AutoGreen/
 echo $(date)>>CommitTime.txt
-git add .
-git commit -m "A commit a day keeps the girlfriend away."
-git push -u origin main
-echo I'M Stronger..
-
+/usr/local/git/bin/git add .
+/usr/local/git/bin/git commit -m "Everyday commit"
+/usr/local/git/bin/git push -u origin main
